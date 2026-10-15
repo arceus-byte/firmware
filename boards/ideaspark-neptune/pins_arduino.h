@@ -40,6 +40,14 @@
 #define SPI_MISO_PIN 19
 #define SPI_SCK_PIN 18
 
+#define USE_NRF24_VIA_SPI
+
+#define NRF24_CE_PIN 25
+#define NRF24_SS_PIN 26
+#define NRF24_SCK_PIN SPI_SCK_PIN
+#define NRF24_MOSI_PIN SPI_MOSI_PIN
+#define NRF24_MISO_PIN SPI_MISO_PIN
+
 static const uint8_t SS = SPI_SS_PIN;
 static const uint8_t MOSI = SPI_MOSI_PIN;
 static const uint8_t MISO = SPI_MISO_PIN;
