@@ -14,6 +14,8 @@ on:
         default: 'lilygo-t-embed-cc1101'
         type: choice
         options:
+          - "ideaspark-neptune"
+          - "m5stack-cardputer"
           - "m5stack-cardputer"
           - "m5stack-cplus2"
           - "m5stack-cplus1_1"
