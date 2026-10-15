@@ -59,6 +59,9 @@ static const uint8_t SCL = GROVE_SCL;
 #define TXLED -1
 #define RXLED -1
 
+#define BAD_TX -1
+#define BAD_RX -1
+
 #define LED_ON HIGH
 #define LED_OFF LOW
 
